@@ -1,0 +1,13 @@
+name: earthcode
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - xarray
+  - matplotlib
+  - mystmd
+  - cartopy
+  - pip
+  - pip:
+      - jupyter_server
+
