@@ -16,7 +16,7 @@ project:
   license:
     content: CC-BY-4.0
     code: Apache-2.0
-  copyright : "2025"  # Copyright year to be placed in the footer
+  copyright: "2025" # Copyright year to be placed in the footer
   toc:
     - file: README.md
   # bibliography: []
@@ -24,9 +24,9 @@ project:
 site:
   template: book-theme
   options:
-     logo: static/ESA_logo_2020_Deep.png
-     logo_text: EarthCODE
-     revision: 2025-02-15
+    logo: static/ESA_logo_2020_Deep.png
+    logo_text: EarthCODE
+    revision: 2025-02-15
   nav:
     - title: Learn More
       url: https://earthCODE.esa.int
