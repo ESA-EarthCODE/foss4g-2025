@@ -1,0 +1,124 @@
+name: pangeo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python and data science
+  - python>=3.9,<3.14
+  - numpy>=1.21
+  - pandas>=1.3
+  - scipy>=1.7
+  - matplotlib-base>=3.5
+  - seaborn-base>=0.11
+  - scikit-learn>=1.0
+  - scikit-image>=0.19
+  - statsmodels>=0.13
+  # Geospatial and Earth science core
+  - xarray>=2023.1
+  - dask>=2023.1
+  - netcdf4>=1.6
+  - h5py>=3.7
+  - h5netcdf>=1.0
+  - zarr>=2.12
+  - rasterio>=1.3
+  - rioxarray>=0.13
+  - geopandas>=0.12
+  - shapely>=1.8
+  - fiona>=1.8
+  - pyproj>=3.4
+  - cartopy>=0.21
+  - proj>=9.0
+  - gdal>=3.6
+  - geos>=3.11
+  # Cloud and remote data access
+  - fsspec>=2023.1
+  - s3fs>=2023.1
+  - gcsfs>=2023.1
+  - adlfs>=2023.1
+  - boto3>=1.26
+  - botocore>=1.29
+  - requests>=2.28
+  # Earth observation specific
+  - satpy>=0.40
+  - pyresample>=1.24
+  - pyorbital>=1.7
+  - pyspectral>=0.12
+  - pystac>=1.7
+  - pystac-client>=0.6
+  - stackstac>=0.4
+  - odc-stac>=0.3
+  - earthaccess>=0.8
+  - planetary-computer>=0.4
+  # Jupyter and visualization
+  - jupyter>=1.0
+  - jupyterlab>=3.6
+  - notebook>=6.5
+  - ipykernel>=6.20
+  - ipywidgets>=8.0
+  - ipyleaflet>=0.17
+  - ipympl>=0.9
+  - bokeh>=3.0
+  - holoviews>=1.15
+  - hvplot>=0.8
+  - panel>=1.0
+  - folium>=0.14
+  - plotly>=5.0
+  # Development and analysis tools
+  - black>=22.0
+  - ruff>=0.0.250
+  - line_profiler>=4.0
+  - memory_profiler>=0.60
+  - snakeviz>=2.1
+  - watermark>=2.3
+  - tqdm>=4.64
+  # Atmospheric and climate science
+  - metpy>=1.4
+  - cftime>=1.6
+  - cf_xarray>=0.8
+  - xclim>=0.40
+  - xesmf>=0.7
+  - esmf>=8.4
+  - esmpy>=8.4
+  - eofs>=1.4
+  - xskillscore>=0.0.24
+  - xhistogram>=0.3
+  - gcm_filters>=0.3
+  # Ocean science
+  - gsw>=3.6
+  - pop-tools>=2023.1
+  - xmitgcm>=0.5
+  - fastjmd95>=0.2
+  # Machine learning and parallel computing
+  - dask-ml>=2023.1
+  - distributed>=2023.1
+  - numba>=0.57
+  - joblib>=1.2
+  - threadpoolctl>=3.1
+  # File formats and compression
+  - blosc>=1.21
+  - lz4>=4.3
+  - zstd>=1.5
+  - snappy>=1.1
+  - imagecodecs>=2023.1
+  - tifffile>=2023.1
+  # Intake and data catalogs
+  - intake>=0.6
+  - intake-esm>=2023.1
+  - intake-xarray>=0.6
+  - intake-stac>=0.4
+  - kerchunk>=0.1
+  # Additional utilities
+  - toolz>=0.12
+  - cytoolz>=0.12
+  - click>=8.0
+  - pyyaml>=6.0
+  - jsonschema>=4.17
+  - jinja2>=3.1
+  - packaging>=21.0
+  - setuptools>=65.0
+  - pip>=22.0
+  # Pip dependencies
+  - pip:
+    - tabulate>=0.9.0
+    - xpystac>=0.2.0
+    - xrlint>=0.5.1
