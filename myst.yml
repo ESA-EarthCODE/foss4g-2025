@@ -2,7 +2,7 @@
 version: 1
 project:
   title: ESA EarthCODE 101
-  description: FOSS4G Europe 2025 Workshops
+  description: FOSS4G Europe 2025 Workshop
   authors:
     - name: European Space Agency
       affiliations:
@@ -11,23 +11,28 @@ project:
           ror: https://ror.org/03wd9za21
   github: https://github.com//ESA-EarthCODE/foss4g-2025
   banner: static/ESA_logo_2020_Deep.png
-  thumbnail: static/ESA_logo_2020_Deep.png
+  thumbnail: static/PANGEO.png
   open_access: true
   license:
     content: CC-BY-4.0
-    code: Apache-2.0
-  copyright: "2025" # Copyright year to be placed in the footer
+    code: MIT
+  copyright: "2025"
   toc:
-    - file: README.md
-  # bibliography: []
+    # Main navigation
+    - file: index.md
+    - file: pangeo_on_EarthCODE.ipynb
   subject: earth and related environmental sciences
+  bibliography:
+    - references.bib
+
 site:
   template: book-theme
   options:
-    logo: static/ESA_logo_2020_Deep.png
+    logo: https://raw.githubusercontent.com/ESA-EarthCODE/documentation/refs/heads/main/pages/public/img/EarthCODE_kv_transparent.png
     logo_text: EarthCODE
-    revision: 2025-02-15
-  nav:
-    - title: Learn More
-      url: https://earthCODE.esa.int
+  actions:
+    - title: Learn about EarthCODE
+      url: https://earthcode.esa.int
+    - title: Learn about Pangeo
+      url: https://pangeo.io
   domains: []
