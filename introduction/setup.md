@@ -16,11 +16,11 @@ Steps to run this tutorial on your own computer are listed below and demonstrate
 
 1. git clone the LPS-25 repository.
 ```bash
-git clone https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop.git
+git clone https://github.com/ESA-EarthCODE/foss4g-2025
 ```
 2. Install the required software environment with Conda. If you do not have Conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html)). Then create the environment, this can take a few minutes.
 ```bash
-conda env create -n pangeo -f LPS25_Pangeo_x_EarthCODE_Workshop/environment.yml
+conda env create -n pangeo -f foss4g-2025/environment.yml
 ```
 3. Launch a Jupyterlab notebook server from this environment.
 ```bash

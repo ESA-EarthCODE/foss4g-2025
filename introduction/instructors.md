@@ -20,8 +20,3 @@ This short course is delivered by a group of contributors from the Pangeo and Ea
 
 ---
 
-### **Tina Odaka**
-- **Affiliation:** [IFREMER](https://en.ifremer.fr)
-- **About:** Tina Odaka is a research engineer at Ifremer (LOPS), specializing in cloud-native workflows for marine and Earth observation data. She integrates tools like Pangeo, Zarr, STAC, and Dask into reproducible research and contributes to projects like Pangeo@EOSC and the EOPF Sample Service, supporting scalable, open geoscience.
-- **Github**: [tinaok](https://github.com/tinaok)
-- **Project affiliation:**  EarthCODE (https://earthcode.esa.int/) is a strategic initiative by the European Space Agency (ESA) designed to empower researchers in Earth System Science with FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.
